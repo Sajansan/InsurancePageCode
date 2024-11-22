@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Insurance Company</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="allcss.css">
+    <link rel="icon" href="Icons\Daco_5505100.png" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="Icons\Daco_5505100.png" alt="Logo" height="25px"/></a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container py-3">
+     
+      <h1  class="text-center"></div>Contact Us</h1>
+      <h3>Find Us On Map</h3>
+      <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.8592061627384!2d-122.0842496846929!3d37.42199927982563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbbd9cbbd6a69%3A0x8d5d5b317e1e2fd9!2sGoogleplex!5e0!3m2!1sen!2sus!4v1612350407583!5m2!1sen!2sus"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+    <div class="container">
+      <!-- Contact Details Section -->
+      <div class="contact-details">
+          <h3>Contact Information</h3>
+      
+          <p> <img src="Icons\location.png" alt="" height="30px">13/7, 6th Street, Thillai Ganga Nagar, Nanganallur</p>
+          
+          <p><strong><img src="Icons\[CITYPNG.COM]HD Yellow Square Phone Icon PNG - 2000x2000.png" alt="" height="30px"></strong> 9840177017</p>
+          <p><strong><img src="Icons\mailpng.png" alt="" height="30px"></strong> <a href="mailto:myfamilyagent@gmail.com">myfamilyagent@gmail.com</a></p>
+      </div>
+
+    <br>
+    
+    <h1>Contact Form</h1>
+      <form>
+        
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="name" required />
+          </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <button id="scrollToTopBtn"><img src="Icons\arrow-up-6-512.png" alt="uparrow" height="20px"></button>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-white py-3">
+      <div class="container">
+        <!-- Contact and Social Media in a Two-Column Layout -->
+        <div class="d-flex justify-content-between">
+          <!-- Contact Details -->
+          <div class="text-start">
+            <h5>CONTACT US</h5>
+            <p>
+              <img
+                src="Icons\location.png"
+                alt="Location Icon"
+                height="30px"
+              />: 123 Main Street, Cityville, Country<br /><br />
+              <img
+                src="Icons\[CITYPNG.COM]HD Yellow Square Phone Icon PNG - 2000x2000.png"
+                alt="Phone Icon"
+                height="30px"
+              />: +1 234 567 890<br /><br />
+              <img src="Icons\mailpng.png" alt="Mail Icon" height="30px" /> :
+              <a href="mailto:info@insurancecompany.com" class="text-white"
+                >info@insurancecompany.com</a
+              >
+            </p>
+          </div>
+    
+          <!-- Social Media Links -->
+          <div class="text-end">
+            <h5>FOLLOW US ON</h5>
+            <div class="d-flex justify-content-end align-items-center gap-3">
+              <a
+                href="https://www.facebook.com/yourpage"
+                target="_blank"
+                class="text-white"
+              >
+                <img src="Icons\fbpng.png" alt="" height="50px" />
+              </a>
+              <a
+                href="https://www.twitter.com/yourpage"
+                target="_blank"
+                class="text-white"
+              >
+                <img src="Icons\twiter.png" alt="" height="60px" />
+              </a>
+              <a
+                href="https://www.instagram.com/yourpage"
+                target="_blank"
+                class="text-white"
+              >
+                <img src="Icons\insta.png" alt="" height="40px" />
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Centered Copyright and Home Link -->
+        <div class="text-center mt-3">
+          <p>
+            <a href="index.html">
+              <img src="Images\hoembtton.jpg" alt="" height="40px" />
+            </a>
+          </p>
+          <p>&copy; 2024 Insurance Company | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Get the button
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+// Show the button when the user scrolls down 100px
+window.onscroll = function() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+};
+
+// Scroll to the top of the page when the button is clicked
+scrollToTopBtn.onclick = function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};
+
+    </script>
+  </body>
+</html>
