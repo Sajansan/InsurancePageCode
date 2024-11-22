@@ -1,0 +1,304 @@
+header,
+footer {
+  background-color: #174e80;
+}
+
+h1 {
+  color: rgba(12, 12, 112, 0.842);
+}
+
+h4 {
+  color: #f6d755 !important;
+}
+
+/* General Styles */
+#about-us {
+  padding: 2rem;
+  background-color: #f1dbae;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-image {
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.about-image img {
+  width: 250px; /* Fixed size for the image */
+  height: auto;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .about-image {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .social-icons a img {
+    height: 18px;
+  }
+}
+.strengths-container {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Strength Card */
+.strength-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on strength cards */
+.strength-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon style */
+.strength-card img {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+/* Heading style */
+.strength-card h3 {
+  color: #4caf50;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph style */
+.strength-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+.insurance-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual insurance type item */
+.insurance-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on insurance items */
+.insurance-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styling */
+.insurance-item i {
+  font-size: 40px;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+/* Insurance type title */
+.insurance-item h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.map-container {
+  width: 400px; /* Set the desired square size */
+  height: 400px;
+  position: relative; /* Ensures proper iframe placement */
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0; /* Removes border for a cleaner look */
+}
+
+body {
+  padding-top: 50px; /* Adjust based on the navbar height */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 2px;
+}
+#aboutus {
+  text-align: center;
+}
+
+#abc {
+  display: flex;
+  justify-content: flex-start; /* Align logo to the left */
+
+  max-width: 100%; /* Ensures logo is responsive */
+  height: auto;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #fccd12;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#scrollToTopBtn:hover {
+  background-color: #f6d755;
+}
+
+
+
+
+
+/* Reset default margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #174e80;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Highlight active link */
+.nav-links a.active {
+  color: #f6d755;
+  font-weight: bold;
+}
+
+/* Change link hover color */
+.nav-links a:hover {
+  color: #ffd207;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
